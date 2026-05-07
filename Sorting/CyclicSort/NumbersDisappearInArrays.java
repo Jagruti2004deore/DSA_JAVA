@@ -3,6 +3,15 @@ import java.util.List;
 
 public class NumbersDisappearInArrays {
 
+    public static void main(String[] args) {
+
+        int[] nums = {4,3,2,7,8,2,3,1};
+
+        NumbersDisappearInArrays obj = new NumbersDisappearInArrays();
+
+        System.out.println(obj.findDisappearedNumbers(nums));
+    }
+
     public List<Integer> findDisappearedNumbers(int[] nums) {
 
         int i = 0;
@@ -38,4 +47,3 @@ public class NumbersDisappearInArrays {
         arr[second] = temp;
     }
 }
-//solve
