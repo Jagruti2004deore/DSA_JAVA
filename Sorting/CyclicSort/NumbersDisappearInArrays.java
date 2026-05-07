@@ -38,3 +38,4 @@ public class NumbersDisappearInArrays {
         arr[second] = temp;
     }
 }
+//solve
